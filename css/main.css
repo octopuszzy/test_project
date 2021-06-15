@@ -1,0 +1,124 @@
+body{
+    font-family: 'Microsoft YaHei';
+    
+}
+.wrap{
+    width: 450px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    position: relative;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+.header{
+    height: 55px;
+    line-height: 55px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f5f5f5;
+}
+.header>i{
+    color: #e2e2e2;
+    font-size: 24px;
+}
+.main{    
+    background-color: #f4f3f3;
+    padding: 10px;
+    background: url('../img/bro.jpg') no-repeat center center/cover;
+    
+}
+.main .talk_list{
+    width: 100%;
+}
+.main .talk_list li{
+    margin: 10px 0px;
+    width: 100%;
+}
+.talk_list .left_word{
+    text-align: left;
+}
+.talk_list .left_word img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.talk_list .left_word>div {
+    float: left;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 13px;
+    max-width: 290px;
+    position: relative;
+    background-color: #fff;
+}
+.talk_list .right_word{
+    text-align: right;
+}
+.talk_list .right_word img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    float: right;
+    border-radius: 5px;
+}
+.talk_list .right_word>div{
+    float: right;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-right: 13px;
+    max-width: 290px;
+    position: relative;
+    background-color: #9eea6a;
+}
+.main ul li div .sanjiao_left{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    border-top: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #fff;
+}
+.main ul li div .sanjiao_right{
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #9eea6a;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+}
+
+.footer{ 
+    height: 200px;
+    width: 100%;   
+    background-color:#fff;
+}
+.footer .picture{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .picture i{
+    color: #8a8a8a;
+    margin-right: 8px;
+}
+.footer .content{
+    height: 60px;
+}
+.footer .content input{
+    border: 0;
+    outline: none;
+    margin-left: 20px;
+    height: 60px;
+
+}
+.footer .send{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
